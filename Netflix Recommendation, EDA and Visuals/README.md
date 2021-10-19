@@ -14,4 +14,27 @@ Project also contains dataset of **BOOKS** for finding out how many movies/shows
  
  While coding recommendation system I performed two techniques first is **TF-IDF(Term Frequency-Inverse Document Frequency)** by using this method model performed very well but for accuracy I created other model the second technique which was **CountVectorizer** and **Cosine Similarity**.
  
+ # 🟢Approach:
+ Approach is very simple because like other projects I started with classical way to build **Machine Learning** approach. Firstly I imported all necessary python libraries and loaded **Netflix** dataset first and visualize. Then I loaded two datasets of **IMDb** (ratings and movies). After this I started playing with the collected data i.e. visualization of factors, cleaning the data, making sub dataset and used them for better analysis. The additional part is displaying content with the help of **WordCloud**.
+ 
+ # 🟡Recommedation System: 
+ Recommendation System is the main goal of this project as I said earlier that our data is text data, for text data we are using **NLP** concepts. I did same :p
+ I tested this system on some famous Netflix TV shows and Movies such as **F.R.I.E.N.D.S.**, **PEAKY BLINDERS**, **NARCOS**, **3 IDIOTS**.
+ 
+ # 🟣Issue:
+ I was plotting some visuals with the help of python library called **PLOTLY** and visuals are not visible on github notebook file. So here are these visuals
+ 
+ Output of code line 98 in notebook file:
+ 
+ <img src='screenshots/Screenshot (12).png' height='300px' width='500px' ></img>
+ 
+ Output of code line 136 in notebook file:
+ 
+  <img src='screenshots/Screenshot (14).png' height='300px' width='auto' ></img>
+  
+  
+  # 🟠Thank You:
+  Thank you so much, corrections and suggestions are welcome😉
+ 
+ 
  
