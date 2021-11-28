@@ -108,10 +108,12 @@ Line[47]:
 ## Tableau Dashboards:
 
 Dashboard 1:
+(by **data_visuals.csv**)
 
 <img src='https://github.com/karan842/Data-Science-Projects/blob/master/Customer%20Personality%20Analysis/Images/Dashboard1.png'></img>
 
 Dashboard 2:
+(by **data_visuals2.csv**)
 
 <img src='https://github.com/karan842/Data-Science-Projects/blob/master/Customer%20Personality%20Analysis/Images/Dashboard2.png'></img>
 
