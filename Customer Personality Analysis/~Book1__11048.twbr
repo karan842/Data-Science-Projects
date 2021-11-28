@@ -1,0 +1,1330 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='data_visuals' inline='true' name='federated.07rkofq0h1gi7512dfy8903ktq10' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_visuals' name='textscan.04qlb8407okovu12hwy4p103ilbw'>
+            <connection class='textscan' directory='D:/Popeye/Data Science Project/Customer Personality Analysis' filename='data_visuals.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.04qlb8407okovu12hwy4p103ilbw' name='data_visuals.csv' table='[data_visuals#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='integer' name='Year_Birth' ordinal='2' />
+            <column datatype='string' name='Education' ordinal='3' />
+            <column datatype='string' name='Marital_Status' ordinal='4' />
+            <column datatype='real' name='Income' ordinal='5' />
+            <column datatype='integer' name='Kidhome' ordinal='6' />
+            <column datatype='integer' name='Teenhome' ordinal='7' />
+            <column datatype='date' name='Dt_Customer' ordinal='8' />
+            <column datatype='integer' name='Recency' ordinal='9' />
+            <column datatype='integer' name='MntWines' ordinal='10' />
+            <column datatype='integer' name='MntFruits' ordinal='11' />
+            <column datatype='integer' name='MntMeatProducts' ordinal='12' />
+            <column datatype='integer' name='MntFishProducts' ordinal='13' />
+            <column datatype='integer' name='MntSweetProducts' ordinal='14' />
+            <column datatype='integer' name='MntGoldProds' ordinal='15' />
+            <column datatype='integer' name='NumDealsPurchases' ordinal='16' />
+            <column datatype='integer' name='NumWebPurchases' ordinal='17' />
+            <column datatype='integer' name='NumCatalogPurchases' ordinal='18' />
+            <column datatype='integer' name='NumStorePurchases' ordinal='19' />
+            <column datatype='integer' name='NumWebVisitsMonth' ordinal='20' />
+            <column datatype='integer' name='AcceptedCmp3' ordinal='21' />
+            <column datatype='integer' name='AcceptedCmp4' ordinal='22' />
+            <column datatype='integer' name='AcceptedCmp5' ordinal='23' />
+            <column datatype='integer' name='AcceptedCmp1' ordinal='24' />
+            <column datatype='integer' name='AcceptedCmp2' ordinal='25' />
+            <column datatype='integer' name='Complain' ordinal='26' />
+            <column datatype='integer' name='Response' ordinal='27' />
+            <column datatype='integer' name='Kids' ordinal='28' />
+            <column datatype='integer' name='Expenses' ordinal='29' />
+            <column datatype='integer' name='TotalAcceptedCmp' ordinal='30' />
+            <column datatype='integer' name='NumTotalPurchases' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.04qlb8407okovu12hwy4p103ilbw' name='data_visuals.csv' table='[data_visuals#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='integer' name='Year_Birth' ordinal='2' />
+            <column datatype='string' name='Education' ordinal='3' />
+            <column datatype='string' name='Marital_Status' ordinal='4' />
+            <column datatype='real' name='Income' ordinal='5' />
+            <column datatype='integer' name='Kidhome' ordinal='6' />
+            <column datatype='integer' name='Teenhome' ordinal='7' />
+            <column datatype='date' name='Dt_Customer' ordinal='8' />
+            <column datatype='integer' name='Recency' ordinal='9' />
+            <column datatype='integer' name='MntWines' ordinal='10' />
+            <column datatype='integer' name='MntFruits' ordinal='11' />
+            <column datatype='integer' name='MntMeatProducts' ordinal='12' />
+            <column datatype='integer' name='MntFishProducts' ordinal='13' />
+            <column datatype='integer' name='MntSweetProducts' ordinal='14' />
+            <column datatype='integer' name='MntGoldProds' ordinal='15' />
+            <column datatype='integer' name='NumDealsPurchases' ordinal='16' />
+            <column datatype='integer' name='NumWebPurchases' ordinal='17' />
+            <column datatype='integer' name='NumCatalogPurchases' ordinal='18' />
+            <column datatype='integer' name='NumStorePurchases' ordinal='19' />
+            <column datatype='integer' name='NumWebVisitsMonth' ordinal='20' />
+            <column datatype='integer' name='AcceptedCmp3' ordinal='21' />
+            <column datatype='integer' name='AcceptedCmp4' ordinal='22' />
+            <column datatype='integer' name='AcceptedCmp5' ordinal='23' />
+            <column datatype='integer' name='AcceptedCmp1' ordinal='24' />
+            <column datatype='integer' name='AcceptedCmp2' ordinal='25' />
+            <column datatype='integer' name='Complain' ordinal='26' />
+            <column datatype='integer' name='Response' ordinal='27' />
+            <column datatype='integer' name='Kids' ordinal='28' />
+            <column datatype='integer' name='Expenses' ordinal='29' />
+            <column datatype='integer' name='TotalAcceptedCmp' ordinal='30' />
+            <column datatype='integer' name='NumTotalPurchases' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_Birth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year_Birth]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Year_Birth</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital_Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Marital_Status]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Marital_Status</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Income</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kidhome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kidhome]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Kidhome</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teenhome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Teenhome]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Teenhome</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dt_Customer</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Dt_Customer]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Dt_Customer</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recency</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recency]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Recency</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntWines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntWines]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>MntWines</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntFruits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntFruits]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>MntFruits</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntMeatProducts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntMeatProducts]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>MntMeatProducts</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntFishProducts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntFishProducts]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>MntFishProducts</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntSweetProducts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntSweetProducts]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>MntSweetProducts</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MntGoldProds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MntGoldProds]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>MntGoldProds</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumDealsPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumDealsPurchases]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>NumDealsPurchases</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumWebPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumWebPurchases]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>NumWebPurchases</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumCatalogPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumCatalogPurchases]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>NumCatalogPurchases</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumStorePurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumStorePurchases]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>NumStorePurchases</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumWebVisitsMonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumWebVisitsMonth]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>NumWebVisitsMonth</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp3]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>AcceptedCmp3</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp4]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>AcceptedCmp4</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp5]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>AcceptedCmp5</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp1]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>AcceptedCmp1</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AcceptedCmp2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AcceptedCmp2]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>AcceptedCmp2</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Complain]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Complain</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Response]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Response</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kids</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kids]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Kids</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expenses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expenses]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>Expenses</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalAcceptedCmp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalAcceptedCmp]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>TotalAcceptedCmp</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NumTotalPurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NumTotalPurchases]</local-name>
+            <parent-name>[data_visuals.csv]</parent-name>
+            <remote-alias>NumTotalPurchases</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' caption='Age' datatype='integer' name='[Calculation_777433929475801088]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='2015 - [Year_Birth]' />
+      </column>
+      <column aggregation='CountD' caption='Blank' datatype='string' name='[Calculation_777433929484840961]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot; &quot;' />
+      </column>
+      <column caption='Dt Customer' datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='Marital Status' datatype='string' name='[Marital_Status]' role='dimension' type='nominal' />
+      <column caption='Mnt Fish Products' datatype='integer' name='[MntFishProducts]' role='measure' type='quantitative' />
+      <column caption='Mnt Fruits' datatype='integer' name='[MntFruits]' role='measure' type='quantitative' />
+      <column caption='Mnt Gold Prods' datatype='integer' name='[MntGoldProds]' role='measure' type='quantitative' />
+      <column caption='Mnt Meat Products' datatype='integer' name='[MntMeatProducts]' role='measure' type='quantitative' />
+      <column caption='Mnt Sweet Products' datatype='integer' name='[MntSweetProducts]' role='measure' type='quantitative' />
+      <column caption='Mnt Wines' datatype='integer' name='[MntWines]' role='measure' type='quantitative' />
+      <column caption='Num Catalog Purchases' datatype='integer' name='[NumCatalogPurchases]' role='measure' type='quantitative' />
+      <column caption='Num Deals Purchases' datatype='integer' name='[NumDealsPurchases]' role='measure' type='quantitative' />
+      <column caption='Num Store Purchases' datatype='integer' name='[NumStorePurchases]' role='measure' type='quantitative' />
+      <column caption='Num Total Purchases' datatype='integer' name='[NumTotalPurchases]' role='measure' type='quantitative' />
+      <column caption='Num Web Purchases' datatype='integer' name='[NumWebPurchases]' role='measure' type='quantitative' />
+      <column caption='Num Web Visits Month' datatype='integer' name='[NumWebVisitsMonth]' role='dimension' type='quantitative' />
+      <column caption='Total Accepted Cmp' datatype='integer' name='[TotalAcceptedCmp]' role='measure' type='quantitative' />
+      <column caption='Year Birth' datatype='integer' name='[Year_Birth]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='data_visuals.csv' datatype='table' name='[__tableau_internal_object_id__].[data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B]' role='measure' type='quantitative' />
+      <column-instance column='[Marital_Status]' derivation='None' name='[none:Marital_Status:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Marital_Status:nk]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;relationship&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Single&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='data_visuals.csv' id='data_visuals.csv_044E28B311FF4A648597A5CD94ED2C9B'>
+            <properties context=''>
+              <relation connection='textscan.04qlb8407okovu12hwy4p103ilbw' name='data_visuals.csv' table='[data_visuals#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='ID' ordinal='1' />
+                  <column datatype='integer' name='Year_Birth' ordinal='2' />
+                  <column datatype='string' name='Education' ordinal='3' />
+                  <column datatype='string' name='Marital_Status' ordinal='4' />
+                  <column datatype='real' name='Income' ordinal='5' />
+                  <column datatype='integer' name='Kidhome' ordinal='6' />
+                  <column datatype='integer' name='Teenhome' ordinal='7' />
+                  <column datatype='date' name='Dt_Customer' ordinal='8' />
+                  <column datatype='integer' name='Recency' ordinal='9' />
+                  <column datatype='integer' name='MntWines' ordinal='10' />
+                  <column datatype='integer' name='MntFruits' ordinal='11' />
+                  <column datatype='integer' name='MntMeatProducts' ordinal='12' />
+                  <column datatype='integer' name='MntFishProducts' ordinal='13' />
+                  <column datatype='integer' name='MntSweetProducts' ordinal='14' />
+                  <column datatype='integer' name='MntGoldProds' ordinal='15' />
+                  <column datatype='integer' name='NumDealsPurchases' ordinal='16' />
+                  <column datatype='integer' name='NumWebPurchases' ordinal='17' />
+                  <column datatype='integer' name='NumCatalogPurchases' ordinal='18' />
+                  <column datatype='integer' name='NumStorePurchases' ordinal='19' />
+                  <column datatype='integer' name='NumWebVisitsMonth' ordinal='20' />
+                  <column datatype='integer' name='AcceptedCmp3' ordinal='21' />
+                  <column datatype='integer' name='AcceptedCmp4' ordinal='22' />
+                  <column datatype='integer' name='AcceptedCmp5' ordinal='23' />
+                  <column datatype='integer' name='AcceptedCmp1' ordinal='24' />
+                  <column datatype='integer' name='AcceptedCmp2' ordinal='25' />
+                  <column datatype='integer' name='Complain' ordinal='26' />
+                  <column datatype='integer' name='Response' ordinal='27' />
+                  <column datatype='integer' name='Kids' ordinal='28' />
+                  <column datatype='integer' name='Expenses' ordinal='29' />
+                  <column datatype='integer' name='TotalAcceptedCmp' ordinal='30' />
+                  <column datatype='integer' name='NumTotalPurchases' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Age vs Expenses'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column aggregation='Sum' caption='Age' datatype='integer' name='[Calculation_777433929475801088]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='2015 - [Year_Birth]' />
+            </column>
+            <column datatype='integer' name='[Expenses]' role='measure' type='quantitative' />
+            <column caption='Year Birth' datatype='integer' name='[Year_Birth]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_777433929475801088]' derivation='None' name='[none:Calculation_777433929475801088:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Expenses]' derivation='Sum' name='[sum:Expenses:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Calculation_777433929475801088:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='#ffffff' />
+            <format attr='font-weight' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='bold' />
+            <format attr='text-align' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Calculation_777433929475801088:ok]</rows>
+        <cols>[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]</cols>
+      </table>
+      <simple-id uuid='{E8FFD985-F77E-45B6-8A00-4C52AC649977}' />
+    </worksheet>
+    <worksheet name='Expense vs Marital Status'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column datatype='integer' name='[Expenses]' role='measure' type='quantitative' />
+            <column caption='Marital Status' datatype='string' name='[Marital_Status]' role='dimension' type='nominal' />
+            <column-instance column='[Marital_Status]' derivation='None' name='[none:Marital_Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Expenses]' derivation='Sum' name='[pcto:sum:Expenses:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Expenses]' derivation='Sum' name='[sum:Expenses:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]' />
+              <wedge-size column='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' />
+              <size column='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' />
+              <text column='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]' />
+              <text column='[federated.07rkofq0h1gi7512dfy8903ktq10].[pcto:sum:Expenses:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='10'><![CDATA[<[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='10'><![CDATA[<[federated.07rkofq0h1gi7512dfy8903ktq10].[pcto:sum:Expenses:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9479CD98-9032-4651-BDC5-F66F4FF2E6E3}' />
+    </worksheet>
+    <worksheet name='Expenses'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#59a14f' fontsize='18'>Expenses</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column datatype='integer' name='[Expenses]' role='measure' type='quantitative' />
+            <column-instance column='[Expenses]' derivation='Sum' name='[sum:Expenses:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-weight' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='bold' />
+            <format attr='font-size' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='20' />
+            <format attr='color' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='#59a14f' />
+            <format attr='text-format' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='color' value='#d3b348' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0' fontcolor='#000000' fontsize='20'>Expenses</run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run fontalignment='0' fontcolor='#000000' fontsize='20'><![CDATA[<[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9F4E2457-2138-4097-9E6A-6FC758560E70}' />
+    </worksheet>
+    <worksheet name='Expenses vs Education'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column datatype='string' name='[Education]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Expenses]' role='measure' type='quantitative' />
+            <column-instance column='[Education]' derivation='None' name='[none:Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Expenses]' derivation='Sum' name='[sum:Expenses:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Education:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='n#,##0,.00K;-#,##0,.00K' />
+            <format attr='text-align' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='center' />
+            <format attr='color' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='#ffffff' />
+            <format attr='font-weight' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Education:nk]</rows>
+        <cols>[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Expenses:qk]</cols>
+      </table>
+      <simple-id uuid='{8C1570E8-3468-4D29-A575-A7DD3CF88AC7}' />
+    </worksheet>
+    <worksheet name='Income'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column datatype='real' name='[Income]' role='measure' type='quantitative' />
+            <column-instance column='[Income]' derivation='Sum' name='[sum:Income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Income:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='0' fontsize='20'>Income</run>
+                <run fontalignment='0'>Æ&#10;</run>
+                <run bold='true' fontalignment='0' fontsize='20'><![CDATA[<[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Income:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{11AD5B64-E294-4926-9F67-6C264DA219ED}' />
+    </worksheet>
+    <worksheet name='Income vs Marital Status'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column datatype='real' name='[Income]' role='measure' type='quantitative' />
+            <column caption='Marital Status' datatype='string' name='[Marital_Status]' role='dimension' type='nominal' />
+            <column-instance column='[Marital_Status]' derivation='None' name='[none:Marital_Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Income]' derivation='Sum' name='[pcto:sum:Income:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Income]' derivation='Sum' name='[sum:Income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]' />
+              <wedge-size column='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Income:qk]' />
+              <size column='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Income:qk]' />
+              <text column='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]' />
+              <text column='[federated.07rkofq0h1gi7512dfy8903ktq10].[pcto:sum:Income:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='10'><![CDATA[<[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='10'><![CDATA[<[federated.07rkofq0h1gi7512dfy8903ktq10].[pcto:sum:Income:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{996D6530-CDFB-4622-A92F-A2B05FEA2267}' />
+    </worksheet>
+    <worksheet name='Mnt Diff'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column caption='Mnt Fish Products' datatype='integer' name='[MntFishProducts]' role='measure' type='quantitative' />
+            <column caption='Mnt Fruits' datatype='integer' name='[MntFruits]' role='measure' type='quantitative' />
+            <column caption='Mnt Gold Prods' datatype='integer' name='[MntGoldProds]' role='measure' type='quantitative' />
+            <column caption='Mnt Meat Products' datatype='integer' name='[MntMeatProducts]' role='measure' type='quantitative' />
+            <column caption='Mnt Sweet Products' datatype='integer' name='[MntSweetProducts]' role='measure' type='quantitative' />
+            <column caption='Mnt Wines' datatype='integer' name='[MntWines]' role='measure' type='quantitative' />
+            <column-instance column='[MntFishProducts]' derivation='Sum' name='[sum:MntFishProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntFruits]' derivation='Sum' name='[sum:MntFruits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntGoldProds]' derivation='Sum' name='[sum:MntGoldProds:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntMeatProducts]' derivation='Sum' name='[sum:MntMeatProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntSweetProducts]' derivation='Sum' name='[sum:MntSweetProducts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MntWines]' derivation='Sum' name='[sum:MntWines:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07rkofq0h1gi7512dfy8903ktq10].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntWines:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntMeatProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntGoldProds:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntFishProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntSweetProducts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntFruits:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07rkofq0h1gi7512dfy8903ktq10].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntWines:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntMeatProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntGoldProds:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntFishProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntSweetProducts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:MntFruits:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.07rkofq0h1gi7512dfy8903ktq10].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[:Measure Names]' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07rkofq0h1gi7512dfy8903ktq10].[:Measure Names]</rows>
+        <cols>[federated.07rkofq0h1gi7512dfy8903ktq10].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{48AB4B23-E5B5-4F60-9C47-54DCADB49D88}' />
+    </worksheet>
+    <worksheet name='Monthly Analysis'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column caption='Dt Customer' datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+            <column caption='Num Web Visits Month' datatype='integer' name='[NumWebVisitsMonth]' role='dimension' type='quantitative' />
+            <column datatype='integer' name='[Response]' role='measure' type='quantitative' />
+            <column-instance column='[Dt_Customer]' derivation='Month' name='[mn:Dt_Customer:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[NumWebVisitsMonth]' derivation='None' name='[none:NumWebVisitsMonth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Response]' derivation='Sum' name='[sum:Response:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.07rkofq0h1gi7512dfy8903ktq10].[mn:Dt_Customer:ok]' value='iLLL' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:NumWebVisitsMonth:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Response:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.07rkofq0h1gi7512dfy8903ktq10].[none:NumWebVisitsMonth:qk] + [federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Response:qk])</rows>
+        <cols>[federated.07rkofq0h1gi7512dfy8903ktq10].[mn:Dt_Customer:ok]</cols>
+      </table>
+      <simple-id uuid='{C76C8218-4E36-456B-ABB4-6A30F0BC4ED1}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data_visuals' name='federated.07rkofq0h1gi7512dfy8903ktq10' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07rkofq0h1gi7512dfy8903ktq10'>
+            <column aggregation='CountD' caption='Blank' datatype='string' name='[Calculation_777433929484840961]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot; &quot;' />
+            </column>
+            <column caption='Dt Customer' datatype='date' name='[Dt_Customer]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_777433929484840961]' derivation='None' name='[none:Calculation_777433929484840961:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Dt_Customer]' derivation='Year' name='[yr:Dt_Customer:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.07rkofq0h1gi7512dfy8903ktq10].[yr:Dt_Customer:ok] / [federated.07rkofq0h1gi7512dfy8903ktq10].[none:Calculation_777433929484840961:nk])</cols>
+      </table>
+      <simple-id uuid='{A61C948B-2546-446A-B49D-740189BEF942}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <zones>
+        <zone h='10778' id='3' name='Expenses' show-title='false' w='19250' x='7125' y='3111' />
+        <zone h='16556' id='4' name='Income' show-title='false' w='23000' x='35813' y='1333' />
+        <zone h='28889' id='5' name='Income vs Marital Status' w='30438' x='31813' y='16444' />
+        <zone h='28444' id='6' name='Expense vs Marital Status' w='31625' x='313' y='18111' />
+        <zone h='42333' id='7' name='Monthly Analysis' w='39250' x='4063' y='50000' />
+        <zone h='31556' id='8' name='Expenses vs Education' w='32375' x='64063' y='11667' />
+        <zone h='31556' id='9' name='Age vs Expenses' w='36438' x='62188' y='41778' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4AA873BF-8B1C-42AA-B4A1-0DDD0BB9FA52}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='37'>
+    <window class='worksheet' name='Expenses'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CAA43812-BCB1-4274-997A-5766F9645CB3}' />
+    </window>
+    <window class='worksheet' name='Income vs Marital Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07rkofq0h1gi7512dfy8903ktq10].[none:Marital_Status:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.07rkofq0h1gi7512dfy8903ktq10].[sum:Income:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D933DAEB-CFE2-4020-8DA4-045FF16EECFB}' />
+    </window>
+    <window class='worksheet' name='Mnt Diff'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A582D5B7-9E28-47A8-9860-D4A2BEDDBE26}' />
+    </window>
+    <window class='worksheet' name='Expense vs Marital Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9E9A7798-A6D4-4402-AA87-E768C16F713C}' />
+    </window>
+    <window class='worksheet' name='Expenses vs Education'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0D106125-52B9-4B8A-8862-678D7ED38760}' />
+    </window>
+    <window class='worksheet' name='Income'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6FE4DD51-152C-458E-B141-075681D93F18}' />
+    </window>
+    <window class='worksheet' name='Age vs Expenses'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{120DA882-AB47-4382-8A6B-CF807BB28771}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Age vs Expenses' />
+        <viewpoint name='Expense vs Marital Status'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Expenses' />
+        <viewpoint name='Expenses vs Education' />
+        <viewpoint name='Income' />
+        <viewpoint name='Income vs Marital Status'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Monthly Analysis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BF061D15-B7BD-427F-8E52-47E05404957E}' />
+    </window>
+    <window class='worksheet' name='Monthly Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{33E372ED-1061-465C-AA68-3FC4723482DB}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{47D20D57-471E-454C-AF33-FA8601F6E88F}' />
+    </window>
+  </windows>
+</workbook>
