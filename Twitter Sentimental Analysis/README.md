@@ -3,7 +3,7 @@
 
 - Find the dataset here: https://www.kaggle.com/karan842/twitter-sentimental-analysis/data 
 
-<img src='https://github.com/karan842/Data-Science-Projects/blob/master/Twitter%20Sentimental%20Analysis/tweet.jpg' heoight=800px width=800px></img>
+<img src='https://github.com/karan842/Data-Science-Projects/blob/master/Twitter%20Sentimental%20Analysis/tweet.jpg' height=800px width=800px></img>
 
 Follow me on twitter: https://twitter.com/KuchBhiKaran
  ## 🔵 About Project
