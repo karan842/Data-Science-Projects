@@ -33,8 +33,6 @@
 - Twitter
 - My Laptop
 
-# Additional Links:
-**Lending Loan Kaggle Competition** : https://www.kaggle.com/karan842/data-science-project-loan-data
 
 # Coding Platforms
 - **Kaggle** : https://www.kaggle.com/karan842
