@@ -16,6 +16,7 @@
 - Sklearn
 - Tensorflow and Keras
 - Google Sheets
+- Tableau
 
 # Editors:
 - Google Collab
